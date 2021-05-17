@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:summary="@string/units_summary" android:title="@string/units">
+        <SwitchPreference android:key="settings_temp_unit" android:defaultValue="true" android:switchTextOn="@string/unit_celcius" android:switchTextOff="@string/unit_fahrenheit" android:title="@string/temperature"/>
+        <SwitchPreference android:key="settings_speed_unit" android:defaultValue="true" android:switchTextOn="@string/unit_kph" android:switchTextOff="@string/unit_mph" android:title="@string/wind_speed"/>
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/sensors">
+        <SwitchPreference android:key="settings_compass" android:title="@string/compass" android:switchTextOff="@string/off" android:switchTextOn="@string/on" android:defaultValue="false"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

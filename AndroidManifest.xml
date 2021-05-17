@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="local.iesnules.weatherapp"
+    android:versionCode="3"
+    android:versionName="0.6" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true" android:theme="@android:style/Theme.Holo.NoActionBar" android:label="@string/app_name" android:icon="@drawable/weatherapp_icon">
+        <activity
+            android:name="com.iesnules.weatherapp.MainActivity"
+            android:label="@string/app_name" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iesnules.weatherapp.SettingsActivity"></activity>
+    </application>
+
+</manifest>
