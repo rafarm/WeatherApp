@@ -20,7 +20,7 @@ Features:
 
 This application has been developed by students of ICT course of **IES Gilabert de Centelles** (Nules) with the help of professor **Rafa Rubio**. It is therefore an educational non-profit project.
 
-Students who have participated in this project are:
+Students who have participated in this project:
 + Salvador Benitez
 + Andrea Civera
 + Antoni Ferrandis
